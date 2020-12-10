@@ -1,1 +1,1 @@
-console.log(":)");
+const images = document.querySelectorAll("img");
