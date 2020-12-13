@@ -28,7 +28,16 @@ p {
 }
 
 img {
-    width: 350px;
-    height: 400px;
+    width: 250px;
+    height: 300px;
     padding: 10px;
+}
+
+.images1, .images3, .images5 {
+    float: left;
+    margin: 5px 5px 0 0;
+}
+
+.images2, .images4 {
+    float: right;
 }
