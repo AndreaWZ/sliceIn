@@ -30,12 +30,13 @@ p {
 img {
     width: 250px;
     height: 300px;
-    padding: 10px;
+    border: 10px solid rgb(207, 216, 173);
+    border-radius: 3px;
+    margin: 15px;
 }
 
 .images1, .images3, .images5 {
     float: left;
-    margin: 5px 5px 0 0;
 }
 
 .images2, .images4 {
