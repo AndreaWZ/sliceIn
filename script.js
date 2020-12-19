@@ -5,3 +5,7 @@ for(let i =0; i < images.length; i ++) {
     })
 }
 
+window.addEventListener("scroll", function() {
+    console.log("You are scrolling the page!")
+})
+
