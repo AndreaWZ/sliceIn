@@ -1,11 +1,12 @@
-const images = document.querySelectorAll("img");
+const imagesL = document.getElementsByClassName("imagesLeft");
+let imagesR = document.getElementsByClassName("imagesRight");
 
-for(let i =0; i < images.length; i ++) {
-    images[i].addEventListener("click", function() {
-    })
-}
-
-window.addEventListener("scroll", function() {
-    console.log("You are scrolling the page!")
+window.addEventListener("scroll", function(){
+    for(let i = 0; i < imagesL.length; i++) {
+        imagesL[i].classList.add("animationL")
+    }
 })
+
+
+
 

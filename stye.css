@@ -35,10 +35,35 @@ img {
     margin: 15px;
 }
 
-.images1, .images3, .images5 {
+.imagesLeft{
     float: left;
+    position: relative;
+    left: -400px;
 }
 
-.images2, .images4 {
+.imagesRight {
     float: right;
+}
+
+.animationL {
+    animation-name: slideInLeft;
+    animation-duration: 4s;
+    left: 0px;
+}
+
+@keyframes slideInLeft {
+    0%   {left:-400px; top:0px;}
+  100%  {left:0px; top:0px;}
+}
+
+.imagesRight {
+    position: relative;
+    right: 0;
+    animation-name: slideInRight;
+    animation-duration: 2s;
+}
+
+@keyframes slideInRight {
+    0%   {right:-400px; top:0px;}
+  100%  {right:0px; top:0px;}
 }
