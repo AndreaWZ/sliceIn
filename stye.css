@@ -38,32 +38,33 @@ img {
 .imagesLeft{
     float: left;
     position: relative;
-    left: -400px;
-}
-
-.imagesRight {
-    float: right;
+    left: -500px;
 }
 
 .animationL {
     animation-name: slideInLeft;
-    animation-duration: 4s;
+    animation-duration: 1.5s;
     left: 0px;
 }
 
 @keyframes slideInLeft {
-    0%   {left:-400px; top:0px;}
+    0%   {left:-500px; top:0px;}
   100%  {left:0px; top:0px;}
 }
 
 .imagesRight {
+    float: right;
     position: relative;
-    right: 0;
+    right: -500px;
+}
+
+.animationR {
     animation-name: slideInRight;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
+    right: 0px;
 }
 
 @keyframes slideInRight {
-    0%   {right:-400px; top:0px;}
+    0%   {right:-500px; top:0px;}
   100%  {right:0px; top:0px;}
 }
